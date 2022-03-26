@@ -61,3 +61,14 @@
         border-radius: 8px;
     }
 }
+@media screen and (max-width:280px) {
+    
+    .product{
+        width: 220px;
+        height: 390px;
+    }
+    .product img{
+        width: 190px;
+        height: 190px;
+    }
+}

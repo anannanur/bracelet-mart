@@ -2,7 +2,7 @@ import React from 'react';
 
 const Answer = () => {
     return (
-        <div>
+        <div style={{margin:'0 15px'}}>
             <h2>How does React work?</h2>
             <p>React বর্তমান সময়ে অনেক জনপ্রিয় জাভাস্ক্রিপ্ট ফ্রেমওয়ার্ক। এর পেছনে অনেক
                 strong reason রয়েছে। React actual DOM এর আদলে তৈরি করে virtual DOM,
