@@ -1,7 +1,11 @@
 .header{
-    background-color: rosybrown;
+    background-color: rgb(163, 101, 75);
     height: 110px;
     width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+
 }
 .header h1{
     margin: 0;

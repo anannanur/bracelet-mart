@@ -50,13 +50,13 @@ const Shop = () => {
                     }
                 </div>
                 <div className='cart-container'>
-                    <h4>Selected Bracelets</h4>
+                    <h3>Selected Bracelets</h3>
                     {
                         cart.map(cart => <Cart cart={cart} key={cart.id}></Cart>)
                     }
-                    <button className='choose-btn1' onClick={chooseOneId}>Choose One for me</button>
+                    <button className='choose-btn1' onClick={chooseOneId}>Choose 1 for me</button>
                     <button className='choose-btn2' onClick={() => removeAll()}>Choose again</button>
-                    <p><small>{chosen_One}</small></p>
+                    <h3><small style={{color:'blue'}}>{chosen_One}</small></h3>
 
                 </div>
             </div>
