@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Roman Style zircon crystal Bracelet",
+        "img": "https://i.ibb.co/kD9qM5Z/img1.jpg",
+        "price": 59
+    },
+    {
+        "id": 2,
+        "name": "Heart-shaped double love crystal Bracelet",
+        "img": "https://i.ibb.co/wRG5WXQ/img2.jpg",
+        "price": 41
+    },
+    {
+        "id": 3,
+        "name": "Pearl With Chain Bracelet",
+        "img": "https://i.ibb.co/5xc7xK3/5113c9baaa9ff74c9002438c610cc597.jpg",
+        "price": 78
+    },
+    {
+        "id": 4,
+        "name": "Butterfly with Chain Bracelet",
+        "img": "https://i.ibb.co/Gdn6QDF/db12e2981055d80b67e5ac1741777555.jpg",
+        "price": 89
+    },
+    {
+        "id": 5,
+        "name": "Alloy Sen Leaf Simple Bracelet",
+        "img": "https://i.ibb.co/5xXnNBM/8b7aeeaa984bb6cc4684298548d5d5b4.jpg",
+        "price": 145
+    },
+    {
+        "id": 6,
+        "name": "Ecg Bracelet",
+        "img": "https://i.ibb.co/RQrkzsc/4bf042594288be8d3cf91aed7e35ae24.jpg",
+        "price": 48
+    },
+    {
+        "id": 7,
+        "name": "Brand Jewelry Lady Bracelet",
+        "img": "https://i.ibb.co/VY43qSK/8ff32f6a45bb4dd7604dccef090834bc.jpg",
+        "price": 2990
+    },
+    {
+        "id": 8,
+        "name": "American Diamond Cut Stone Bangles",
+        "img": "https://i.ibb.co/TrKjDCZ/1bb2c4ea5742bb8643a9d69ca1304ae4.jpg",
+        "price": 2640
+    },
+    {
+        "id": 9,
+        "name": "Queen Zircon Snowflake Bracelet",
+        "img": "https://i.ibb.co/dWqxGS0/2aca630bc27a7808c0a811d20b02d60b.jpg",
+        "price": 920
+    },
+    {
+        "id": 10,
+        "name": "Pearl Zircon Bracelet",
+        "img": "https://i.ibb.co/pxv5x6D/1a1e2977f282f176ca8399b6aedcc978.jpg",
+        "price": 398
+    },
+    {
+        "id": 11,
+        "name": "Pretty Stainless Steel Bracelet",
+        "img": "https://i.ibb.co/zfyL42H/1eedb3a7ce6f906851455faddd26fcd0.jpg",
+        "price": 120
+    },
+    {
+        "id": 12,
+        "name": "Blue Rhinestone Ocean Heart Bracelet",
+        "img": "https://i.ibb.co/SsSj82q/d72ad78b54117c9babda04cdde69f769.jpg",
+        "price": 192
+    }
+]
