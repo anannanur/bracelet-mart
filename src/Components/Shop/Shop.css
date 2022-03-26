@@ -10,8 +10,15 @@
     justify-items: center;
 }
 .cart-container{
-    background-color: rosybrown;
+    background-color: rgba(219, 162, 130, 0.904);
     margin-top: 30px;
+    max-height: 1000px;
+}
+.choose-btn1,
+.choose-btn2{
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 5px;
 }
 @media screen and (max-width:768px) {
     .shop-container{
