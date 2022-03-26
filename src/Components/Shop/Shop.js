@@ -18,11 +18,15 @@ const Shop = () => {
 
         const newCart = [...cart, item];
 
-        if (cart.length < 4) {
+        if (cart.find(singleCart => singleCart.name === item.name)) {
+            alert('This bracelet item has already been added');
+        }
+
+        else if (cart.length < 4) {
             setCart(newCart);
         }
         else {
-            alert("you can't choose more than 4");
+            alert("You can't choose more than 4items");
         }
 
     }
@@ -54,9 +58,10 @@ const Shop = () => {
                     {
                         cart.map(cart => <Cart cart={cart} key={cart.id}></Cart>)
                     }
-                    <button className='choose-btn1' onClick={chooseOneId}>Choose 1 for me</button>
+                    <button className='choose-btn1'
+                        onClick={chooseOneId}>Choose 1 for me</button>
                     <button className='choose-btn2' onClick={() => removeAll()}>Choose again</button>
-                    <h3><small style={{color:'blue'}}>{chosen_One}</small></h3>
+                    <h3><small style={{ color: 'blue' }}>{chosen_One}</small></h3>
 
                 </div>
             </div>
