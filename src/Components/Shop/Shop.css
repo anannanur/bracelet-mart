@@ -6,10 +6,12 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 45px;
-    margin: 100px 50px;
+    margin: 100px auto;
+    justify-items: center;
 }
 .cart-container{
-    background-color: rgba(255, 153, 0, 0.3);
+    background-color: rosybrown;
+    margin-top: 30px;
 }
 @media screen and (max-width:768px) {
     .shop-container{
@@ -17,6 +19,8 @@
     }
     .products-container{
         grid-template-columns: 1fr;
+        margin: 100px 0;
+        
     }
 }
 @media screen and (min-width:769px) and (max-width:1024px) {
@@ -25,5 +29,6 @@
     }
     .products-container{
         grid-template-columns: repeat(2,1fr);
+        margin: 100px 50px;
     }
 }
