@@ -5,8 +5,10 @@ const Cart = ({cart}) => {
 
     const{name} = cart;
     return (
-        <div>
-            <p><small>{name}</small></p>          
+        <div>              
+            <ul>
+                <li><small>{name}</small></li>
+            </ul>      
         </div>
     );
 };
