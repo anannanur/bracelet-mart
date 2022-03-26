@@ -33,7 +33,7 @@
         margin: 80px 0;       
     }
     .cart-container{
-        position: relative;
+        position: static;
     }
 }
 @media screen and (max-width:280px) {
